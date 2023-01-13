@@ -8,11 +8,14 @@ function Login2(){
     const [ profile, setProfile ] = useState([]);
     // const clientId = '386932037035-k8v833noqjk7m4auae0t83vnkrqvvg3t.apps.googleusercontent.com';
     const clientId = '955446613500-go46ujmg3jpfp9o1tvqo8j11on2onkg3.apps.googleusercontent.com';
-
+    const ApiKey ='AIzaSyDDZG0G53mIAqfYjsVnXyjGO96B5DE9eas'
+    // const ApiKey ='955446613500-go46ujmg3jpfp9o1tvqo8j11on2onkg3.apps.googleusercontent.com'
     useEffect(() => {
         const initClient = () => {
-            gapi.client.init({
+            // gapi.client.init({
+                gapi.auth2.init({
                 clientId: clientId,
+                ApiKey:ApiKey,
                 scope: ''
             });
         };
@@ -20,6 +23,7 @@ function Login2(){
     });
     const onSuccess = (res) => {
         setProfile(res.profileObj);
+        console.log(JSON.stringify(res.profileObj));
     };
 
     const onFailure = (err) => {

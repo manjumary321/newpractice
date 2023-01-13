@@ -1,0 +1,134 @@
+.outer{
+    /* width: 100%; */
+    background-color: rgb(216, 191, 160);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.containter{
+    width: 80%;
+    background-color: rgb(176, 176, 250);
+    display: flex;
+    justify-content:center;
+    
+}
+.containter table{
+   
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 1px solid lightblue;
+    margin: 20px;
+    border-collapse: collapse;
+    border: 1px solid red;
+
+}
+.containter tr{
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.row1_col1{
+    width: 30%;
+    background-color:#020223;
+    border-top-left-radius: 8px;
+    padding: 10px;
+    
+   
+}
+.row1_col1  label{
+    color:goldenrod;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+}
+.row1_col2{
+    width: 30%;
+    background-color:#020223;
+    padding: 10px;
+
+}
+.row1_col2 label{
+    color:goldenrod;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    
+}
+.row1_col3{
+    width: 40%;
+    background-color:#020223;
+
+    border-top-right-radius: 8px;
+    padding: 10px;
+}
+.row1_col3  label{
+    color:goldenrod;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+.row2_col{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  text-align: center;
+  align-items: center;
+ 
+   
+}
+.row2_col  label{
+    color:black;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* flex-direction: column; */
+    border-collapse: collapse;
+    border: 1px solid red;
+}
+.row2_col2{
+    width: 40%;
+   padding: 10px;
+   display: flex;
+    justify-content: center;
+    flex-direction: row;
+  text-align: center;
+  align-items: center;
+  border-collapse: collapse;
+  border: 1px solid red;
+}
+.row2_col2  label{
+    color:black;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* flex-direction: column; */
+ 
+}
+.row2{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+}
