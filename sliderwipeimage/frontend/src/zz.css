@@ -1,0 +1,26 @@
+/* .carousel {
+    border-radius: 55px ;
+    height: 500px;
+    padding: 10px;
+    width: 100%;
+    
+    
+}
+.Carousel-Caption label{
+    font-family:    Garamond;
+    font-size:      6em;
+    fontSize: '2em',
+    fontWeight: 'bold',
+
+} */
+/* .carousel-inner > .item > img {
+    border-radius: 10px;
+} */
+/* .carousel-indicators{
+    width: 13px;
+    height: 12px;
+    border-radius: 60%;
+} */
+.slider_button:hover{
+    background-color: aquamarine;
+}
